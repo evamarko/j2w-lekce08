@@ -49,6 +49,7 @@ public class Osoba {
   @Pattern(regexp = "\\+?\\d+")
   private String telefon;
 
+  //Vždy musí být i bezparametrický konstruktor, když potřebuji pracovat s databází
   public Osoba() {
   }
 
